@@ -1,13 +1,15 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
+import Navbar from "./components/Home/Navbar";
+import Footer from "./components/Home/Footer";
 
 function App() {
   return (
     <>
       <div>
-        <h2>hello</h2>
-        <button className="btn btn-primary">Primary</button>
-        <button className="btn btn-secondary">Secondary</button>
-        <button className="btn btn-accent">Accent</button>
+        <Navbar />
+        <Outlet />
+        <Footer />
       </div>
     </>
   );
