@@ -42,6 +42,16 @@ const Testimonials = () => {
       description:
         "With CypherPlay, I can confidently handle our PR expenses, knowing that every transaction is protected. It's the perfect tool for managing our budget efficiently and securely.",
     },
+
+    {
+      id: 5,
+      src: "https://s3-alpha-sig.figma.com/img/5983/c948/e34a2ed36077d50d510f822ee9c75459?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JVBLOy-3lRR95elqX1dhLhUk1I6G2Ptwrb9~G0FdgVLt6GTKv1OB1c65VNzpGvQIZSJW5NDL-19iHsR89ASGSzvwOKvvsbGpOqbPZi9PIoyfQ25TMKAdlCfp2xUdB45joQBfj-4B3E831aEVRUTt1Ri3b7-lplkXjVhlwMh5KruxihUqD46mEHz-cf9DvbtKZDkDVpZZ1yon4pPC5BiuEtgckxdfro7RrsTJzd40YmaNZzqu90D1qKrKP4Qp3nGKNaf8zNX4a5ZU9WWXd6StQqvJCipbQuX-~nX0vxWLcQJA3hRPQoMgZOGUbfDDFzntZsTg-IYlrh9TFq-sOXJGLg__",
+      alt: "Slide 4",
+      name: "Clark Kent",
+      title: "Public Relations Specialist",
+      description:
+        "With CypherPlay, I can confidently handle our PR expenses, knowing that every transaction is protected. It's the perfect tool for managing our budget efficiently and securely.",
+    },
   ];
   const settings = {
     dots: true,
@@ -52,8 +62,8 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
-      <h1>this is testimonial</h1>
+    <div className="container mx-auto p-4 ">
+      <h1 className="text-3xl font-bold text-center my-8">Testimonials</h1>
       <div className="slider-container">
         <Slider {...settings}>
           {images.map((item) => (
