@@ -1,11 +1,9 @@
-import Properties from "./Properties";
-import Testimonials from "./Testimonials";
+import HeroSection from "./HeroSection";
 
 const Home = () => {
   return (
     <div>
-      <Properties />
-      <Testimonials />
+      <HeroSection />
     </div>
   );
 };
