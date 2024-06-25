@@ -1,7 +1,9 @@
+import Testimonials from "./Testimonials";
+
 const Home = () => {
   return (
     <div>
-      <h1>this is home</h1>
+      <Testimonials />
     </div>
   );
 };
