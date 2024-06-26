@@ -67,7 +67,7 @@ const HomeBuying = () => {
               <img
                 src={player}
                 alt="player"
-                className={`absolute top-[150px] left-[20px] sm:top-[45%] sm:left-[90%]  md:top-[45%] md:left-[90%]  lg:top-46 lg:left-[320px] xl:left-[422px] xl:top-[228px] xl:w-[72px] h-[72px] ${
+                className={`absolute top-[150px] left-[20px] sm:top-[45%] sm:left-[90%]  md:top-44 md:left-80  lg:top-44 lg:left-[320px] xl:left-[322px] xl:top-[228px] xl:w-[72px] h-[72px] ${
                   property.id === 2
                     ? ` lg:left-[5%] lg:top-[-5%] xl:left-[10%] xl:top-[-10%]`
                     : ""

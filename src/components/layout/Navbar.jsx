@@ -3,16 +3,20 @@ import logo from "../../assets/images/logo.png";
 const Navbar = () => {
   const navitem = (
     <>
+      <Link to="/">
+        <li>Home</li>
+      </Link>
       <Link to="/buyAService">
         <li>Buy</li>
       </Link>
       <Link to="/propertyDetails">
         <li>Sell</li>
       </Link>
-      <li>Services</li>
+
       <Link to="/aboutPage">
-        <li>About</li>
+        <li>About us</li>
       </Link>
+      <li>Services</li>
     </>
   );
 
@@ -54,7 +58,12 @@ const Navbar = () => {
           <img className="w-8" src={logo} alt="logo" />
         </div>
         <div className="navbar-end">
-          <a className="btn">Login</a>
+          <div className="me-6">
+            <h1>Manage Rentals</h1>
+          </div>
+          <Link to="/login">
+            <button className="btn btn-accent text-white">Login</button>
+          </Link>
         </div>
       </div>
     </div>

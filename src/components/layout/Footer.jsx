@@ -6,7 +6,7 @@ import { PiHandPeace } from "react-icons/pi";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-50 text-gray-600">
+    <footer className="bg-blue-50  text-gray-600">
       <div className="mx-2">
         <div className="mt-12 border-t border-gray-200 pt-8">
           <div className="lg:grid lg:grid-cols-10  gap-8 md:px-8">

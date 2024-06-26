@@ -6,6 +6,7 @@ import BuyAService from "../components/pages/BuyAService/BuyAService";
 
 import PropertyDetailsRoute from "../components/pages/PropertyDetailsRoute.jsx/PropertyDetailsRoute";
 import AboutPage from "../components/pages/AboutPage/AboutPage";
+import Login from "../components/pages/Login";
 
 export const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ export const router = createBrowserRouter([
       {
         path: "/buyAService",
         element: <BuyAService />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
       },
     ],
   },

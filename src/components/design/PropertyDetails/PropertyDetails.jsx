@@ -76,9 +76,7 @@ const PropertyDetails = () => {
                 </p>
                 <p className="font-bold flex items-center mb-5">
                   <img src={shelves} className="size-6" alt="" />
-                  <span className="text-[#303030] font-bold">
-                    Fully Furnished
-                  </span>
+                  <span className="text-[#303030] font-bold">Furnished</span>
                 </p>
               </div>
               <div>
