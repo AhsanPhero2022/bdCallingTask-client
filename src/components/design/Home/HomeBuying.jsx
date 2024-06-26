@@ -53,12 +53,12 @@ const HomeBuying = () => {
               <img
                 src={property.imageUrl}
                 alt="Property"
-                className="w-[280px] h-[180px] sm:min-w-[358px] sm:min-h-[300px] max-w-[458px] max-h-[400px] xl:w-[458px] xl:h-[400px] object-cover  rounded-md shadow-lg"
+                className="w-[280px] h-[180px] sm:min-w-[358px] sm:min-h-[300px] max-w-[458px] max-h-[400px]  object-cover  rounded-md shadow-lg"
               />
               <img
                 src={property.extendImageUrl}
                 alt="Property-Extend"
-                className={`w-[220px] h-[130px] sm:min-w-[352px] sm:min-h-[240px] max-w-[452px] max-h-[240px] xl:w-[452px] xl:h-[240px] object-cover rounded-[8px] shadow-lg absolute left-[60px] bottom-[-104px] sm:left-[60px] sm:-bottom-[104px] md:left-[60px] md:-bottom-[104px] lg:left-[70px] lg:-bottom-8 xl:left-[104px]xl-bottom-[104px] ${
+                className={`w-[220px] h-[130px] sm:min-w-[352px] sm:min-h-[240px] max-w-[452px] max-h-[240px]   object-cover rounded-[8px] shadow-lg absolute left-[60px] bottom-[-104px] sm:left-[60px] sm:-bottom-[104px] md:left-[60px] md:-bottom-[104px] lg:left-[70px] lg:-bottom-8  ${
                   property.id === 2
                     ? " lg:left-[40px] lg:-top-[110px] xl:left-[104px] xl:-top-[110px]"
                     : ""
@@ -67,7 +67,7 @@ const HomeBuying = () => {
               <img
                 src={player}
                 alt="player"
-                className={`absolute top-[150px] left-[20px] sm:top-[45%] sm:left-[90%]  md:top-44 md:left-80  lg:top-44 lg:left-[320px] xl:left-[322px] xl:top-[228px] xl:w-[72px] h-[72px] ${
+                className={`absolute top-[150px] left-[20px] sm:top-[45%] sm:left-[90%]  md:top-44 md:left-80  lg:top-[50%] lg:left-[320px]  h-[72px] ${
                   property.id === 2
                     ? ` lg:left-[5%] lg:top-[-5%] xl:left-[10%] xl:top-[-10%]`
                     : ""
