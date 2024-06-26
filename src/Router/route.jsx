@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import Home from "../components/Home/Home";
-import PropertyDetails from "../components/Home/pages/PropertyDetails";
+import Home from "../components/design/Home/Home";
+import PropertyDetails from "../components/pages/PropertyDetails";
+import BuyAService from "../components/pages/BuyAService/BuyAService";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ export const router = createBrowserRouter([
       {
         path: "/propertyDetails",
         element: <PropertyDetails />,
+      },
+      {
+        path: "/buyAService",
+        element: <BuyAService />,
       },
     ],
   },

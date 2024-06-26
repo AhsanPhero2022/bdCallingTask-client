@@ -1,5 +1,6 @@
 import Slider from "react-slick";
 import { MapPinIcon } from "@heroicons/react/24/outline";
+
 const Properties = () => {
   const properties = [
     {
@@ -45,12 +46,12 @@ const Properties = () => {
   ];
 
   const settings = {
-    dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
+
     responsive: [
       {
         breakpoint: 1024,
@@ -58,11 +59,10 @@ const Properties = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 800,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,

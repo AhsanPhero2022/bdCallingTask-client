@@ -1,5 +1,5 @@
-import backgroundVideo from "../../assets/images/banner_video.mp4";
-import search from "../../assets/images/search.png";
+import backgroundVideo from "../../../assets/images/banner_video.mp4";
+import search from "../../../assets/images/search.png";
 
 const HeroSection = () => {
   return (
