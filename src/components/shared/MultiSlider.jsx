@@ -1,5 +1,6 @@
 import { useRef, useEffect, useCallback } from "react";
 
+// eslint-disable-next-line react/prop-types
 const MultiSlider = ({ min, max, minVal, maxVal }) => {
   const minValRef = useRef(null);
   const maxValRef = useRef(null);

@@ -1,8 +1,9 @@
 import Slider from "react-slick";
-import { MapPinIcon } from "@heroicons/react/24/outline";
+
 import property1 from "../../../assets/images/property1.jpeg";
 import property2 from "../../../assets/images/property2.jpeg";
 import property3 from "../../../assets/images/property3.jpeg";
+import { MapPinIcon } from "@heroicons/react/24/outline";
 
 const PopularProperties = () => {
   const properties = [

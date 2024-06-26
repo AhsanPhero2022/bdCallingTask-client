@@ -8,6 +8,9 @@ const Navbar = () => {
       </Link>
       <li>Sell</li>
       <li>Services</li>
+      <Link to="/aboutPage">
+        <li>About</li>
+      </Link>
     </>
   );
 

@@ -37,7 +37,7 @@ const HomeBuying = () => {
 
   return (
     <div className="my-16">
-      <div>
+      <div className="mx-20">
         {properties.map((property, index) => (
           <div
             key={property.id}

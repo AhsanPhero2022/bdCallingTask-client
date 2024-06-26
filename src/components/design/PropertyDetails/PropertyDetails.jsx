@@ -105,7 +105,7 @@ const PropertyDetails = () => {
                 </div>
               </div>
               <div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                   <div>
                     <p className="text-[#5C5C5C]">Facing</p>
                     <h1 className="text-[#101010]">North - East</h1>

@@ -3,7 +3,9 @@ import App from "../App";
 import Home from "../components/design/Home/Home";
 
 import BuyAService from "../components/pages/BuyAService/BuyAService";
-import PropertyDetails from "../components/design/PropertyDetails/PropertyDetails";
+
+import PropertyDetailsRoute from "../components/pages/PropertyDetailsRoute.jsx/PropertyDetailsRoute";
+import AboutPage from "../components/pages/AboutPage/AboutPage";
 
 export const router = createBrowserRouter([
   {
@@ -16,8 +18,12 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: "/aboutPage",
+        element: <AboutPage />,
+      },
+      {
         path: "/propertyDetails",
-        element: <PropertyDetails />,
+        element: <PropertyDetailsRoute />,
       },
       {
         path: "/buyAService",

@@ -13,7 +13,7 @@ const Testimonials = () => {
       name: "Tony Stark",
       title: "Marketing Manager",
       description:
-        "The level of security provided by CypherPlay is unmatched. I feel confident using my card for both everyday purchases and travel. It's the peace of mind I was looking for.",
+        "The level of security provided by CypherPlay is unmatched. I feel confident using my card for both everyday purchases and solution solutionsolutiontravel. It's the peace of mind I was looking for.",
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const Testimonials = () => {
       name: "Diana Prince",
       title: "Human Resources Manager",
       description:
-        "Using CypherPlay has been a game-changer for our company. It streamlines our payment processes and ensures our transactions are secure. Our employees appreciate the ease of use and reliability.",
+        "Using CypherPlay has been a game-changer for our company. It streamlines our payment processes and ensures our transactions aresolution secure. Our employees appreciate the ease of use and reliability.",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const Testimonials = () => {
       name: "Clark Kent",
       title: "Public Relations Specialist",
       description:
-        "With CypherPlay, I can confidently handle our PR expenses, knowing that every transaction is protected. It's the perfect tool for managing our budget efficiently and securely.",
+        "With CypherPlay, I can confidently handle our PR expenses, knowing solution that every transaction is protected. It's the perfect tool for managing our budget efficiently and securely solution.",
     },
 
     {
@@ -50,7 +50,7 @@ const Testimonials = () => {
       name: "Clark Kent",
       title: "Public Relations Specialist",
       description:
-        "With CypherPlay, I can confidently handle our PR expenses, knowing that every transaction is protected. It's the perfect tool for managing our budget efficiently and securely.",
+        "With CypherPlay, I can confidently handle our PR expenses, knowing that solution every transaction is protected. It's the perfect tool for managing our budget efficiently and securely solution.",
     },
   ];
   const settings = {
@@ -67,7 +67,7 @@ const Testimonials = () => {
       <div className="slider-container">
         <Slider {...settings}>
           {images.map((item) => (
-            <div key={item.id} className="p-2  slider-item  ">
+            <div key={item.id} className="px-2  slider-item  ">
               <div className="bg-blue-50 p-4 rounded-lg">
                 <div className="flex gap-2 items-center justify-center">
                   <StarIcon class="size-6 text-yellow-300" />
