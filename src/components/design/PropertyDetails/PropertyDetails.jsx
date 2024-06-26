@@ -12,8 +12,8 @@ import MultiSlider from "../../shared/MultiSlider";
 
 const PropertyDetails = () => {
   return (
-    <div className="my-11">
-      <div>
+    <div className="my-11 lg:mx-30 md:mx-16">
+      <div className="">
         {/* //*Header  */}
         <div className="">
           <div className="flex flex-col lg:flex-row lg:items-center mb-2">
@@ -61,7 +61,7 @@ const PropertyDetails = () => {
             {/* //*Overview */}
             <div className="my-8 px-4 lg:px-12 bg-[#F9FAFB] border border-[#E5E7EB] rounded py-8">
               <h1 className="text-2xl font-semibold">Overview</h1>
-              <div className="grid w-full items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-4 border shadow-lg pt-4 px-4 rounded my-6">
+              <div className="grid w-full items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border shadow-lg pt-4 px-4 rounded my-6">
                 <p className="font-bold flex items-center mb-5">
                   <img src={bed} className="size-6" alt="" />
                   <span className="text-[#303030] font-bold">2 Beds</span>

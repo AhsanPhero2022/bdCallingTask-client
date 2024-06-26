@@ -1,7 +1,7 @@
 import propertyImg1 from "../../../assets/images/Landing1.jpg";
 import propertyImg1extend from "../../../assets/images/Landing2.png";
-import propertyImg2 from "../../../assets/images/Landing3.jpg";
-import propertyImg2extend from "../../../assets/images/Landing4.jpg";
+import propertyImg2 from "../../../assets/images/property-2.jpeg";
+import propertyImg2extend from "../../../assets/images/property-2-extend.jpeg";
 import propertyImg3 from "../../../assets/images/Landing5.jpg";
 import propertyImg3extend from "../../../assets/images/Landing6.png";
 import search from "../../../assets/images/landSearch.png";
@@ -36,12 +36,12 @@ const HomeBuying = () => {
   ];
 
   return (
-    <div className="my-16">
-      <div className="mx-20">
+    <div className="my-16 mx-auto">
+      <div className="lg:mx-20">
         {properties.map((property, index) => (
           <div
             key={property.id}
-            className={`flex flex-col lg:flex-row lg:justify-between mb-56 ${
+            className={`lg:flex justify-between mb-56 ${
               property.id === 2
                 ? "lg:flex-row-reverse mb-10 lg:mt-64"
                 : index === 2
@@ -53,12 +53,12 @@ const HomeBuying = () => {
               <img
                 src={property.imageUrl}
                 alt="Property"
-                className="w-[280px] h-[180px] sm:min-w-[358px] sm:min-h-[300px] max-w-[458px] max-h-[400px] xl:w-[458px] xl:h-[400px] object-cover rounded-[8px] shadow-lg"
+                className="w-[280px] h-[180px] sm:min-w-[358px] sm:min-h-[300px] max-w-[458px] max-h-[400px] xl:w-[458px] xl:h-[400px] object-cover  rounded-md shadow-lg"
               />
               <img
                 src={property.extendImageUrl}
                 alt="Property-Extend"
-                className={`w-[220px] h-[130px] sm:min-w-[352px] sm:min-h-[240px] max-w-[452px] max-h-[240px] xl:w-[452px] xl:h-[240px] object-cover rounded-[8px] shadow-lg absolute left-[60px] bottom-[-104px] sm:left-[60px] sm:-bottom-[104px] md:left-[60px] md:-bottom-[104px] lg:left-[35px] lg:-bottom-[104px] xl:left-[104px]xl-bottom-[104px] ${
+                className={`w-[220px] h-[130px] sm:min-w-[352px] sm:min-h-[240px] max-w-[452px] max-h-[240px] xl:w-[452px] xl:h-[240px] object-cover rounded-[8px] shadow-lg absolute left-[60px] bottom-[-104px] sm:left-[60px] sm:-bottom-[104px] md:left-[60px] md:-bottom-[104px] lg:left-[70px] lg:-bottom-8 xl:left-[104px]xl-bottom-[104px] ${
                   property.id === 2
                     ? " lg:left-[40px] lg:-top-[110px] xl:left-[104px] xl:-top-[110px]"
                     : ""
@@ -67,7 +67,7 @@ const HomeBuying = () => {
               <img
                 src={player}
                 alt="player"
-                className={`absolute top-[150px] left-[20px] sm:top-[45%] sm:left-[90%]  md:top-[45%] md:left-[90%]  lg:top-[150px] lg:left-[320px] xl:left-[422px] xl:top-[228px] xl:w-[72px] h-[72px] ${
+                className={`absolute top-[150px] left-[20px] sm:top-[45%] sm:left-[90%]  md:top-[45%] md:left-[90%]  lg:top-46 lg:left-[320px] xl:left-[422px] xl:top-[228px] xl:w-[72px] h-[72px] ${
                   property.id === 2
                     ? ` lg:left-[5%] lg:top-[-5%] xl:left-[10%] xl:top-[-10%]`
                     : ""
@@ -88,7 +88,7 @@ const HomeBuying = () => {
                 {property.title}
               </h3>
               <p className="text-[#667085] mb-12">{property.description}</p>
-              <button className="bg-[#E6EFF7] border border-[#E6EFF7] hover:bg-[#E6EFF7] hover:border-[#E6EFF7] text-[#00437C] px-3 py-5 flex justify-center items-center rounded-[8px] mx-auto lg:mx-0">
+              <button className="bg-[#E6EFF7]  px-4 py-2 flex justify-center items-center rounded-[8px] mx-auto lg:mx-0">
                 <span>
                   <img src={search} alt="" />
                 </span>

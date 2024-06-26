@@ -77,7 +77,7 @@ const Properties = () => {
     ],
   };
   return (
-    <div className="bg-gray-300 py-12">
+    <div className="bg-gray-300 py-12 lg:mx-30 md:mx-16">
       <div className="flex justify-between items-center mx-8">
         <h1 className="text-3xl font-bold  mb-8">New Listed Properties</h1>
         <a className="text-blue-500 underline" href="">

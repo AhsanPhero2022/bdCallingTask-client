@@ -58,15 +58,15 @@ const MultiSlider = ({ min, max, minVal, maxVal }) => {
         className="absolute w-full h-0 appearance-none pointer-events-none"
       />
 
-      <div className="relative w-full h-2 bg-gray-300 rounded-full">
+      <div className="relative w-full h-2 -mt-1 bg-gray-300 rounded-full">
         <div ref={range} className="absolute h-2 bg-[#EEEEEE] rounded-full" />
         <div
           className="absolute top-[-5px] w-6 h-6 bg-[#EE6611] rounded-full border-2 border-[#EEEEEE]"
-          style={{ left: `calc(${getPercent(minVal)}% - 12px)` }}
+          style={{ left: `calc(${getPercent(minVal)}% - 6px)` }}
         />
         <div
           className="absolute top-[-5px] w-6 h-6 bg-[#EE6611] rounded-full border-2 border-[#EEEEEE]"
-          style={{ left: `calc(${getPercent(maxVal)}% - 12px)` }}
+          style={{ left: `calc(${getPercent(maxVal)}% - 18px)` }}
         />
       </div>
 

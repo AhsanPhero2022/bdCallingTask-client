@@ -36,7 +36,7 @@ const PropertyDetails = () => {
   };
 
   return (
-    <div className="grid lg:grid-cols-3  gap-4 my-12 lg:mx-32 ">
+    <div className="grid lg:grid-cols-3  gap-4 my-12  ">
       <div className="col-span-2">
         <div className="">
           <h1 className=" font-bold">

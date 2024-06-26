@@ -3,17 +3,17 @@ import missionStatement from "../../../assets/images/missionStatement.jpeg";
 
 const OurStory = () => {
   return (
-    <div className=" [50px] mx-auto w-full mt-[80px] mb-[290px] md:mb-[185px] ">
+    <div className="  mx-auto w-full mt-12 mb-[290px] md:mb-[185px] ">
       <div className="lg:mx-32">
         <div className="relative">
           {/* Main Image with Gradient Overlay */}
-          <div className="relative w-full h-[455px] lg:w-[930px]">
+          <div className="relative  h-[455px] ">
             <img
               src={ourStory}
               alt="Our Story"
-              className="absolute top-0 left-0 w-full h-full object-cover"
+              className=" absolute top-0 left-0  h-full object-cover"
             />
-            <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-black/65 to-black"></div>
+            <div className="absolute top-0 left-0  h-full bg-gradient-to-b from-transparent via-black/65 to-black"></div>
 
             {/* Additional Image */}
             <img
@@ -24,7 +24,7 @@ const OurStory = () => {
           </div>
 
           {/* Card */}
-          <div className="absolute top-[313px] left-[50%] transform lg:left-[338px] xl:left-[612px] -translate-x-1/2 lg:-translate-x-0 w-full md:w-[592px] bg-[#ECF5FF] p-[32px]">
+          <div className="absolute top-[313px] left-[50%] transform lg:left-[310px] xl:left-[612px] -translate-x-1/2 lg:-translate-x-0 w-full md:w-[592px] bg-[#ECF5FF] p-[32px]">
             <div className="flex items-center space-x-[16px] mb-[16px]">
               <div className="w-[51px] border-t-[4px] border-[#EE6611]"></div>
               <div className="text-[#EE6611] font-poppins text-[18px] font-semibold leading-[21.6px]">
