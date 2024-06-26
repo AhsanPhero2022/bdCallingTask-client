@@ -4,7 +4,7 @@ Welcome to this Landing page! This is a React.js + Vite project developed with T
 
 ## Live Demo
 
-Check out the live demo of the Baby Care Store ([Live Link:]()).
+Check out the live demo of the Baby Care Store ([Live Link:](https://soft-cuchufli-569c38.netlify.app)).
 
 ## Installation
 
