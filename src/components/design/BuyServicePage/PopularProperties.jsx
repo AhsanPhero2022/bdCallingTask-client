@@ -4,11 +4,11 @@ import property1 from "../../../assets/images/property1.jpeg";
 import property2 from "../../../assets/images/property2.jpeg";
 import property3 from "../../../assets/images/property3.jpeg";
 
-const Properties = () => {
+const PopularProperties = () => {
   const properties = [
     {
       id: 1,
-      image: property1,
+      image: property3,
       name: "Modern Apartment",
       location: "New York, NY",
       price: 2500,
@@ -22,14 +22,14 @@ const Properties = () => {
     },
     {
       id: 3,
-      image: property3,
+      image: property1,
       name: "Luxury Villa",
       location: "Los Angeles, CA",
       price: 4500,
     },
     {
       id: 4,
-      image: property1,
+      image: property3,
       name: "Beach House",
       location: "Miami, FL",
       price: 3500,
@@ -77,9 +77,9 @@ const Properties = () => {
     ],
   };
   return (
-    <div className="bg-gray-300 py-12">
+    <div className="bg-gray-300 py-12 pt-48 -mt-32">
       <div className="flex justify-between items-center mx-8">
-        <h1 className="text-3xl font-bold  mb-8">New Listed Properties</h1>
+        <h1 className="text-3xl font-bold  mb-8">Popular Properties</h1>
         <a className="text-blue-500 underline" href="">
           See all property
         </a>
@@ -117,4 +117,4 @@ const Properties = () => {
   );
 };
 
-export default Properties;
+export default PopularProperties;

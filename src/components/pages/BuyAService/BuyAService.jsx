@@ -1,3 +1,4 @@
+import PopularProperties from "../../design/BuyServicePage/PopularProperties";
 import PostProperty from "../../design/BuyServicePage/PostProperty";
 import Properties from "../../design/BuyServicePage/Properties";
 import PropertySearch from "../../design/BuyServicePage/PropertySearch";
@@ -9,6 +10,7 @@ const BuyAService = () => {
     <div>
       <ServiceBanner />
       <PropertySearch />
+      <PopularProperties />
       <Properties />
       <Testimonials />
       <PostProperty />
